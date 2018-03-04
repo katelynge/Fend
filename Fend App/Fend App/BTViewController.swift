@@ -13,6 +13,7 @@ import CoreLocation
 
 let microbitCBUUID = CBUUID(string: "0xA000")
 
+//main bluetooth controller class
 class BTViewController: UIViewController {
     var centralManager: CBCentralManager?
     var peripherals = Array<CBPeripheral>()
