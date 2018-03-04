@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C242038204742AF00C68380 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C242037204742AE00C68380 /* UserNotifications.framework */; };
+		0C2A53A2204495BE00AE02AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C2A53A1204495BE00AE02AA /* GoogleService-Info.plist */; };
 		0CD18B54203B6BDB00C6080D /* BTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD18B53203B6BDB00C6080D /* BTViewController.swift */; };
 		0CD18B56203B709500C6080D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD18B55203B709500C6080D /* CoreBluetooth.framework */; };
 		AC30C389B084A69C3828D96A /* Pods_Fend_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE44E3DA64EF5C6B38EDBC25 /* Pods_Fend_App.framework */; };
@@ -16,12 +18,13 @@
 		B38EE7B81FBEC84100834849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38EE7B71FBEC84100834849 /* Assets.xcassets */; };
 		B38EE7BB1FBEC84100834849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38EE7B91FBEC84100834849 /* LaunchScreen.storyboard */; };
 		B39F2C5920155D3E00785BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39F2C5820155D3E00785BBB /* ViewController.swift */; };
-		E381209E203E26FE0013FD3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E381209D203E26FE0013FD3F /* GoogleService-Info.plist */; };
 		F727FF92202042CA0037D60F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F727FF91202042CA0037D60F /* MapViewController.swift */; };
 		FEFB5C1220225532005F9418 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFB5C1120225532005F9418 /* ReportViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C242037204742AE00C68380 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		0C2A53A1204495BE00AE02AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0CD18B53203B6BDB00C6080D /* BTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTViewController.swift; sourceTree = "<group>"; };
 		0CD18B55203B709500C6080D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		1C881F7856B5F37376648603 /* Pods-Fend App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fend App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fend App/Pods-Fend App.release.xcconfig"; sourceTree = "<group>"; };
@@ -35,7 +38,6 @@
 		B38EE7BC1FBEC84100834849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B39F2C5820155D3E00785BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE44E3DA64EF5C6B38EDBC25 /* Pods_Fend_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fend_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E381209D203E26FE0013FD3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F727FF91202042CA0037D60F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FEFB5C1120225532005F9418 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C242038204742AF00C68380 /* UserNotifications.framework in Frameworks */,
 				0CD18B56203B709500C6080D /* CoreBluetooth.framework in Frameworks */,
 				AC30C389B084A69C3828D96A /* Pods_Fend_App.framework in Frameworks */,
 			);
@@ -56,6 +59,7 @@
 		1014A748E2D3FF208DA23DBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0C242037204742AE00C68380 /* UserNotifications.framework */,
 				0CD18B55203B709500C6080D /* CoreBluetooth.framework */,
 				CE44E3DA64EF5C6B38EDBC25 /* Pods_Fend_App.framework */,
 			);
@@ -92,7 +96,6 @@
 		B38EE7AB1FBEC84100834849 /* Fend App */ = {
 			isa = PBXGroup;
 			children = (
-				E381209D203E26FE0013FD3F /* GoogleService-Info.plist */,
 				B38EE7AC1FBEC84100834849 /* AppDelegate.swift */,
 				B38EE7B41FBEC84100834849 /* Main.storyboard */,
 				B38EE7B71FBEC84100834849 /* Assets.xcassets */,
@@ -103,6 +106,7 @@
 				B370442920224D8500A5FB2F /* ProfileViewController.swift */,
 				FEFB5C1120225532005F9418 /* ReportViewController.swift */,
 				0CD18B53203B6BDB00C6080D /* BTViewController.swift */,
+				0C2A53A1204495BE00AE02AA /* GoogleService-Info.plist */,
 			);
 			path = "Fend App";
 			sourceTree = "<group>";
@@ -170,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B38EE7BB1FBEC84100834849 /* LaunchScreen.storyboard in Resources */,
-				E381209E203E26FE0013FD3F /* GoogleService-Info.plist in Resources */,
+				0C2A53A2204495BE00AE02AA /* GoogleService-Info.plist in Resources */,
 				B38EE7B81FBEC84100834849 /* Assets.xcassets in Resources */,
 				B38EE7B61FBEC84100834849 /* Main.storyboard in Resources */,
 			);
